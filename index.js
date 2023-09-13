@@ -7,6 +7,10 @@ const Todo = require('./models/todo');
 const db = require('./config/db');
 
 
+app.set('view engine', 'ejs'); // setting ejs view engine for rendering ejs file
+app.set('views', './views'); // setting views directory for ejs files
+
+
 app.listen(port, function(error) {
     if(error) {
         console.log('Server Error');
