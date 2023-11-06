@@ -2,12 +2,12 @@ const mongoose = require('mongoose'); // importing the mongoose module
 
 
 // Below line copied from the mongoDB website, connecting to the database
-// mongodb+srv://bmax9567:<password>@cluster0.vwuysw7.mongodb.net/
+// mongodb+srv://<username>:<password>@cluster0.vwuysw7.mongodb.net/
 
 // Doubt about the below line, like should i change the cluster or database
 // or something else from the MongoDb website for the Todo list app
 //
-mongoose.connect('mongodb+srv://bmax9567:max9567@cluster0.vwuysw7.mongodb.net/')
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.vwuysw7.mongodb.net/')
 //
 
 
